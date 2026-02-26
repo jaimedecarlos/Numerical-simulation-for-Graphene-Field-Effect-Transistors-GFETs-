@@ -23,9 +23,10 @@ The constructed data only accepts drain voltage from 0V to 1V with 0.05V interva
 - To fix $V_G$ (gate voltage), fix $j$ int variable in Graphics.m, from 1 to 9. 
 
 To plot $V_D=1V$, $V_G=1V$, state i=21; j=7
+
 To plot $V_D=0.5V$, $V_G=-2V$, state i=11; j=1
 etc
-
+#### Example ($V_D=0V$; $V_G=2V$)
 <img src="https://github.com/user-attachments/assets/ce659696-8b8e-4db9-80dd-d90cfa6c4d1f" width="300" />
 <img src="https://github.com/user-attachments/assets/0004ca6b-1763-490c-a1b9-98a0e9dca558" width="300" />
 <img src="https://github.com/user-attachments/assets/c1ad1318-c1cf-40bc-8c62-23898d4d2d01" width="300" />
