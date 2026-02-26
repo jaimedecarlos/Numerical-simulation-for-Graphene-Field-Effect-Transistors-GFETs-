@@ -51,3 +51,9 @@ Solved numerically through a system of linear equations, derived through the 2nd
 ### Current conservation equation
 
 Given to its heavily nonlinear form, this model was solved through the shooting method, via a 2nd order RK method. 
+
+### Equation coupling
+
+The input for the Poisson equation is the same as the output of the second equation (electric charge density). 
+
+To couple this difference, a minimization problem is defined for INPUT_1 = OUTPUT_2 via the built-in fsolve MATLAB command. 
