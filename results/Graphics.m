@@ -4,8 +4,9 @@ Vds=0:0.05:1;
 
  %Indicar la posición en la matriz de soluciones que se desea graficar.
  %Con estas coordenadas se establece la polarización del transistor.
-i=1;
-j=9;
+ %=============== INDEXING FOR DIFFERENT GRAPHIC DISPLAY ==============
+i=1; %1-21 (V_D=0V --> 1V, intervals 0.05V)
+j=9; %1-9  (V_G= -2V --> 2V, intervals 0.5V)
 
 %% Representación del gráfico Vd - I & Vg - I
 
